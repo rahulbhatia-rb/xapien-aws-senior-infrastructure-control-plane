@@ -1,0 +1,10 @@
+{
+  "aws":{"multi_az":"verified","private_subnets":"verified","controlled_egress":"verified","load_balancer":"verified","dns_owner":"verified","iam_least_privilege":"verified","encryption":"verified","backup_policy":"verified","audit_visibility":"verified"},
+  "compute":{"container_health":"verified","lambda_limits":"verified","autoscaling":"verified","health_checks":"verified","graceful_shutdown":"verified","rollback":"verified","immutable_images":"verified","resource_sizing":"verified"},
+  "events":{"dlq":"verified","retry_backoff":"verified","idempotency":"verified","poison_message_handling":"verified","sns_owner":"verified","schema_versioning":"verified","backpressure":"verified"},
+  "data":{"rds_ha":"verified","rds_backups":"verified","restore_test":"verified","dynamodb_capacity":"verified","hot_partition_review":"verified","cache_strategy":"verified","retention":"verified","pitr":"verified","search_recovery":"verified"},
+  "cicd":{"required_reviews":"verified","short_lived_credentials":"verified","terraform_plan":"verified","container_scan":"verified","release_approval":"verified","progressive_delivery":"verified","rollback":"verified","audit_trail":"verified"},
+  "observability":{"metrics":"verified","logs":"verified","traces":"verified","correlation_ids":"verified","slos":"verified","alert_owner":"verified","runbooks":"verified","dependency_health":"verified","deployment_markers":"verified","cost_telemetry":"verified"},
+  "security":{"cognito_review":"verified","network_segmentation":"verified","secret_management":"verified","vuln_scan":"verified","tls":"verified","at_rest_encryption":"verified","audit_logs":"verified","data_protection":"verified"},
+  "multiregion":{"service_classification":"verified","rto_rpo":"verified","replication_strategy":"verified","failover_procedure":"verified","dns_failover":"verified","restore_evidence":"verified","dependency_review":"verified","game_day":"verified"}
+}
