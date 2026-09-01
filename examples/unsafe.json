@@ -1,0 +1,10 @@
+{
+  "aws":{},
+  "compute":{},
+  "events":{},
+  "data":{},
+  "cicd":{},
+  "observability":{},
+  "security":{},
+  "multiregion":{}
+}
